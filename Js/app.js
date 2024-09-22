@@ -825,3 +825,20 @@
 //         console.log(i);
 //     }
 // }
+
+
+// let name1  = prompt("");
+// let firstMethod = name1.split("");
+// console.log(firstMethod);
+// let secondMethod = firstMethod.reverse();
+// console.log(secondMethod);
+// let thirdMethod = secondMethod.join("");
+// console.log(thirdMethod);
+// let result = name1.toLowerCase();
+// let result2  = thirdMethod.toLowerCase();
+// if (result === result2){
+//     alert("its concentination avilable ");
+// }
+// else {
+//     alert("nothing to do");
+// }
