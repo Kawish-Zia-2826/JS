@@ -876,3 +876,43 @@ var numbers = [1, 2, 3, 4, 5, 6, 8, 9, 10];
  console.log("Original Array:", numbers);
  console.log("Missing Number:", foundMissingNumber);
 // }
+
+
+// =================================================================Assignmnet no 13 =================================================================================================
+// Task 1: Implement a function to find the maximum number in an array
+
+
+var abcd = prompt("Enter");
+var split  = abcd.split(" ");
+var arr = [];
+
+for (let i = 0; i < split.length; i++) {
+    var upper = split[i].slice(0,1).toUpperCase();
+    var further = split[i].slice(1);
+    var result = upper + further;
+
+    console.log(result);
+}
+
+//Task No 2
+// var str  = "saylani mass it traing";
+// var prompt = prompt("enter whats you want to find")
+// for (let ii = 0; ii < str.length; ii++) {
+//     if(str.slice(ii,ii + 4) === prompt){
+//         alert("find")
+//     }
+    
+// }
+
+//Task No 3
+
+var str  = "saylani mass it traing";
+var indexoff = str.indexOf("mass")
+console.log(indexoff);
+
+// Task No 4
+var str  = "saylani mass it traing";
+var str1 = str.replaceAll("saylani mass it traing","SMIT");
+console.log(str1);
+
+
