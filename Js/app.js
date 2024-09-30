@@ -890,9 +890,12 @@ for (let i = 0; i < split.length; i++) {
     var upper = split[i].slice(0,1).toUpperCase();
     var further = split[i].slice(1);
     var result = upper + further;
-
+    arr.push(result)
+   
     console.log(result);
 }
+var array  =  arr.join(" ")
+console.log(array);
 
 //Task No 2
 // var str  = "saylani mass it traing";
