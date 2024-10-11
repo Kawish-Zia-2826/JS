@@ -918,4 +918,73 @@ var str  = "saylani mass it traing";
 var str1 = str.replaceAll("saylani mass it traing","SMIT");
 console.log(str1);
 
+// var rightNow = new Date();
+// var week = ["sun","mon","tues","wed","thurs","fri","sat"]
+// var month = ["jan","feb","mar","april","may","june","july","aug","sep","oct","nov","dec"]
+// var monthRes = rightNow.getMonth()
+// var day  = rightNow.getDay() //5
+// console.log(week[day]);//5
+// console.log(month[monthRes]);
+//==============================DATE METHODS=============================================
+
+// 1. Write a program that displays current date and time in
+// your browser.
+
+// var rightNow = new Date();
+// console.log(rightNow);
+
+// 2. Write a program that alerts the current month in words.
+// For example December.
+// var month = ["jan","feb","mar","april","may","june","july","aug","sep","oct","nov","dec"];
+// var monthRes = rightNow.getMonth();
+// console.log("Current Month is " + month[monthRes]);
+
+// 3. Write a program that alerts the first 3 letters of the current
+// day, for example if today is Sunday then alert will show
+// Sun.
+
+// var rightNow = new Date();
+// var week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var day  = rightNow.getDay();
+// var slicee = week[day].slice(0,3)
+// console.log(slicee);
+
+// 4. Write a program that displays a message “It’s Fun day” if
+// // its Saturday or Sunday today.
+
+// var rightNow = new Date();
+// var week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var day  = rightNow.getDay();
+// console.log(week[6]);
+// console.log(day);
+// if (day === 6 || 0) {
+//     console.log("its funday");
+// } else {
+//     console.log("TODAY is " + week[day]);
+// }
+
+
+
+var rightNow = new Date();
+var week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log(week[rightNow.getDay()]);
+var month = ["jan","feb","mar","april","may","june","july","aug","sep","oct","nov","dec"];
+console.log(month[rightNow.getMonth()] );
+console.log(rightNow.getDate());
+console.log(rightNow.getFullYear());
+console.log(rightNow.getHours());
+console.log(rightNow.getMinutes());
+console.log(rightNow.getSeconds());
+console.log(rightNow.getMilliseconds());
+console.log(rightNow.getTime());
+
+
+var d = new Date();
+d.setFullYear(2000)
+console.log(d);
+d.setMonth(11)
+console.log(d);
+
+
+
 
