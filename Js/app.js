@@ -1060,3 +1060,71 @@ console.log(birthYear);
 
 
 
+// chapters35-38.pdf
+// PDF
+
+// 1. Write a function that displays current date & time in your
+// browser.
+
+// function currentDateTime() {
+//     return console.log(new Date);
+// }
+
+// currentDateTime();
+// // 2. Write a function that takes first & last name and then it
+// // greets the user using his full name.
+// var firstName = prompt('First Name');
+// var lastName = prompt('Last Name');
+
+// function fullName() {
+//     return console.log(firstName + ' ' + lastName);
+// }
+// fullName();
+
+// 3. Write a function that adds two numbers (input by user)
+// and returns the sum of two numbers.
+
+// var num1 = +prompt('Enter first number');
+// var num2 = +prompt('Enter second number');
+
+// function addNumbers() {
+//     return console.log(num1 + num2);
+// }
+
+// addNumbers();
+
+// 4. Calculator:
+// Write a function that takes three arguments num1, num2
+// & operator & compute the desired operation. Return and
+// show the desired result in your browser.
+// var op1 = +prompt('Operator');
+// var op2 = +prompt('opeartor 2');
+// var op3 = prompt("enetr what you want");
+// function Calculator(op1,op2,op3) {
+//     if (op3 === "+") {
+//         return op1 + op2;
+//     }  else if (op3 === "-") {
+//         return op1 - op2; 
+//     }
+//     else if (op3 === "*") {
+//         return op1 * op2;
+//     }
+//     else if (op3 === "/") {
+//         return op1 / op2;
+//     }
+//     else{
+//         "error"
+//     }
+// }
+// console.log(Calculator(op1,op2,op3));
+
+ 
+// 5. Write a function that squares its argument.
+// function square(a) {
+//     return a*a;
+// }
+// console.log(square(+prompt('enter what you want to give square')));
+
+
+
+
